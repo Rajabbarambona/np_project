@@ -29,5 +29,5 @@ East Africa Tourism
    -Footer
 
 4. Created a mongoose schema to define the structure of the document, default values,etc.
-5. Created a mongoose model to provide an interface to the database for creating, querying, updating, deleting records, etc.
+5. Created a mongoose model to provide an interface to the database for creating, querying, updating, deleting records, etc
 6.
