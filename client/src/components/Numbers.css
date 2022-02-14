@@ -1,0 +1,23 @@
+.statistics {
+    display: flex;
+    margin-bottom: 2rem;
+    padding: 4rem 0;
+    flex-wrap: wrap;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    font-size: 20px;
+    color: #34ad00;
+    font-weight: 700;
+}
+
+.sub-header {
+    font-size: 18px;
+    margin: 8px 0;
+    font-weight: 700;
+}

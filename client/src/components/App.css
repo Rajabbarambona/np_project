@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+}
+
+.header {
+  background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.guim.co.uk%2Fimg%2Fmedia%2Fe257becfec477105123f06f96db4529966b4035c%2F0_391_6048_3628%2Fmaster%2F6048.jpg%3Fwidth%3D1200%26height%3D1200%26quality%3D85%26auto%3Dformat%26fit%3Dcrop%26s%3D6a3a587e64662d409ef25b3215fb5ac0&imgrefurl=https%3A%2F%2Fwww.theguardian.com%2Ftravel%2F2016%2Ffeb%2F16%2F50-best-beaches-in-the-world&tbnid=777Zaya3FEsFKM&vet=12ahUKEwjKt4_jm8b1AhXStqQKHYrRCD4QMygUegUIARCTAg..i&docid=Ng-nOTfIPseZOM&w=1200&h=1200&itg=1&q=beach%20images&ved=2ahUKEwjKt4_jm8b1AhXStqQKHYrRCD4QMygUegUIARCTAg");
+}
+
+/*Sign up*/
+/* 
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#2b6d46, #0a8525);
+    font-size: x-large;
+    margin-bottom: -19px;
+    margin-top: 1px;
+}
+
+.title {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 111px;
+    padding-bottom: 2rem;
+}
+
+.submit {
+    margin-left: 12rem;
+}
+
+.input {
+    margin-bottom: 8px;
+    border-radius: 6px;
+    margin-left: 50px;
+    color: green;
+} */

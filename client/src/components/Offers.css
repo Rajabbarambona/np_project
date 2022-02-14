@@ -1,0 +1,38 @@
+.offers {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem 0;
+    border-top: 1px solid rgba(236, 236, 236, 0.9);
+    border-bottom: 1px solid rgba(236, 236, 236, 0.9);
+    margin-bottom: 2rem;
+}
+
+.flat {
+    font-weight: 600;
+}
+
+.offer {
+    font-weight: 600;
+}
+
+.sign {
+    display: flex;
+}
+
+.header {
+    font-size: 20px;
+    color: #34ad00;
+    font-weight: 700;
+}
+
+.sub-header {
+    font-size: 18px;
+    margin: 8px 0;
+    font-weight: 700;
+}
+
+.icon {
+    padding-right: 1rem;
+    font-size: 5rem;
+    color: #1f8dd6;
+}

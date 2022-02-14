@@ -1,0 +1,104 @@
+.packageNameAndImg {
+    display: flex;
+    gap: 2rem;
+    border: 1px #ccc solid;
+    margin-bottom: 2rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    flex-wrap: wrap;
+}
+
+h1.package {
+    color: green;
+    font-size: 36px;
+    padding-top: 36px;
+    margin-left: 208px;
+}
+
+.header-package {
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: green;
+}
+
+.nairobi {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: 79px;
+    justify-items: center;
+}
+
+.detail {
+    flex-direction: column;
+}
+
+.details:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: #1f8dd6;
+    color: #fff;
+}
+
+.charges {
+    justify-content: flex-end;
+}
+
+a.details {
+    padding: 6px 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #34ad00;
+    border: 0;
+    font-size: 13px;
+    border-radius: 2px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.rightPart h5 {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #999;
+}
+
+.middlePart {
+    flex: 2;
+    padding: 1rem;
+}
+
+.rightPart {
+    padding: 2rem;
+}
+
+.package-image {
+    max-width: 332px;
+}
+
+.package-image>img {
+    height: 100%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    max-width: 332px;
+}
+
+
+/* Media query*/
+
+@media screen and (max-width: 480px) {
+    .package-image {
+        max-width: 100%;
+        width: 100%;
+    }
+    .package-image>img {
+        height: 100%;
+        border-bottom-left-radius: 0rem;
+        width: 100%;
+        max-width: 100%;
+    }
+}

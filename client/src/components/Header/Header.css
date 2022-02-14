@@ -1,0 +1,107 @@
+/****** General *****/
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/******** HeaderTop ******/
+
+.headerTopMain {
+  display: flex;
+  justify-content: space-around;
+  height: 36px;
+  line-height: 35px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: #3f84b1;
+}
+
+.home-icon {
+  margin-top: 2px;
+  font-size: 24px;
+}
+
+.innerRight {
+  display: flex;
+}
+
+.innerLeft {
+  display: flex;
+}
+
+.adminLogin {
+  margin-left: 16px;
+}
+
+.tollNumber {
+  margin-right: 16px;
+}
+
+/******** HeaderMiddle ******/
+
+.headerMiddle {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px 0;
+  align-items: center;
+}
+
+.lock_safety {
+  display: flex;
+}
+
+.middleInnerLeft {
+  font-size: 2rem;
+}
+
+.middleInnerLeft > a {
+  color: #3f84b1;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+}
+
+.middleInnerLeft > a > span {
+  color: #34ad00;
+}
+
+.lock {
+  font-size: 3rem;
+  color: #1f8dd6;
+  padding-right: 15px;
+}
+
+.safety {
+  margin-top: 15px;
+}
+
+.safe_secure {
+  color: #1f8dd6;
+  line-height: 18px;
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/******** HeaderBottom ******/
+
+.header__bottom {
+  padding: 1rem 0;
+  color: #fff;
+  background-color: green;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/*********Slider***********/

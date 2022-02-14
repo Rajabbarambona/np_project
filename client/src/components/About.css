@@ -1,0 +1,30 @@
+.inner-container {
+  padding: 4rem 6rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.welcome {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+.image-overview {
+  display: flex;
+  padding: 1rem 0;
+  gap: 1rem;
+}
+
+.image-overview > img {
+  max-width: 19.75rem;
+  border-radius: 1rem 0;
+  box-shadow: -3px 4px 2px -2px rgb(133 131 131 / 69%);
+  transition: transform 0.2s;
+}
+
+.image-overview > img:hover {
+  transform: scale(1.05);
+}

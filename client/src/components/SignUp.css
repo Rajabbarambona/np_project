@@ -1,0 +1,55 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 8rem;
+}
+
+.signup {
+  padding: 2rem 6rem;
+  border-radius: 0 2rem;
+  box-shadow: 0 1px 3px -1px hsl(0deg 3% 27% / 60%);
+  background: rgb(240 240 240 / 51%);
+}
+
+div > h3 {
+  color: green;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.first-name,
+.last-name,
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+div > input {
+  height: 2rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  border: 1px solid rgb(104 184 238 / 18%);
+  background-color: rgb(190 255 190 / 59%);
+  outline-color: #a8faa8;
+}
+
+.inner-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div > button {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  background-color: rgb(0, 128, 0);
+}
+
+div > button:hover {
+  background-color: rgb(1, 107, 1);
+}

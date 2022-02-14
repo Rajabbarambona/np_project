@@ -1,0 +1,25 @@
+.contact {
+    width: 340px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: green;
+    color: #fff;
+    border-radius: 6px;
+    display: block;
+    text-decoration: none;
+    margin-left: 375px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.image-overview {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.title {
+    margin-left: 30rem;
+    color: #3f84b1;
+}
