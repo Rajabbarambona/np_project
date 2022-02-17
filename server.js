@@ -3,13 +3,57 @@ require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 const { graphqlHTTP } = require("express-graphql");
+//For cross origin
 const cors = require("cors");
 const path = require("path");
+//For the entire authentication library
+//const passport = require("passport");
+//using passport as a strategy
+//const passportLocal = require("passport-local").Strategy;
+// to parse all the cookies we are going to use
+//const cookieParser = require("cookie-parser");
+//bycrypt for hashing the pswd
+//const bcrypt = require("bcryptjs");
+//ExpressSession
+//const session = require("express-session");
+//Importing the body parser to parse the request and response objects
+//const bodyParser = "body-parser";
 
 const schema = require("./schema/schema");
 const mongoDBUrl = process.env.MONGODB_URI || process.env.MONGODB_LOCALDB;
 const PORT = process.env.PORT || process.env.PORT_LOCAL;
 const app = express();
+
+//Middleware
+//app.use(bodyParser.json());
+//app.use(bodyParser.urlencoded({ extended: true }));
+
+{
+    /*app.use(
+    cors({
+        origin: "http://localhost:3000", //location of the react app where we cxonnecting to
+        credentials: true,
+    })
+);
+app.use(
+    session({
+        secret: "secretcode",
+        resave: true,
+        saveuninitilized: true,
+    })
+);
+app.use(cookieParser("secretcode"));
+
+//ROUTES
+app.post("/signup", (req, res) => {
+    console.log(req.body);
+});
+
+app.post("/signin", (req, res) => {
+    console.log(req.body);
+});
+app.get("/user", (req, res) => {});*/
+}
 
 //Allow cross-origin request
 app.use(cors());
@@ -47,7 +91,7 @@ mongoose
         useUnifiedTopology: true,
     })
     .then(() =>
-        app.listen(PORT, () => console.log(`Sever is listening on port ${PORT}`))
+        app.listen(PORT, () => console.log(`Server is listening on port ${PORT}`))
     )
     .catch((err) => console.error(err));
 

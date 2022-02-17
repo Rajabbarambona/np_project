@@ -11,6 +11,8 @@ import { About } from "./About";
 import { SignUp } from "./SignUp";
 import { SignIn } from "./SignIn";
 import { ContactUs } from "./ContactUs";
+import { OurTeam } from "./OurTeam";
+import { TourPackage } from "./TourPackage";
 
 // setUser({name:"", email:""});
 // console.log("Logout");
@@ -89,6 +91,8 @@ function App() {
           <Route path="/contactus" element={<ContactUs />}></Route>
           <Route path="/signup" element={<SignUp />}></Route>
           <Route path="/signin" element={<SignIn />}></Route>
+          <Route path="/ourteam" element={<OurTeam />}></Route>
+          <Route path="/tourpackage" element={<TourPackage />}></Route>
         </Routes>
         <Footer />
       </Router>
